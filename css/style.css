@@ -1,0 +1,90 @@
+body{
+background-color: rgb(0, 0, 0);
+/*margin = margen externa
+Padding = margen interna */
+ margin: 0;
+ padding: 0;
+ background: url("../img/Fondo1.jpg") ;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ text-align: center;
+ height: 100vh;
+
+/*Fuente*/
+font-family: 'Amatic SC', cursive;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Bitter', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Staatliches', cursive;
+
+/*Fuente*/
+
+ 
+}
+h1{
+font-family: 'Amatic SC', cursive;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Bitter', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Staatliches', cursive;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'Bitter', serif;
+
+}
+p,button,input,label{
+    font-family: 'Bitter', serif;
+
+}
+
+h1{
+color: #d9abe7;
+font-size: 65px;
+margin-top: 50px;
+
+}
+
+h2 {
+color: #8485c4;
+font-size: 35px;
+margin: 35px;
+height: 10px;
+
+}
+
+h3{
+color: #a8a8c0;
+font-size: 30px;
+margin: 35px;
+height: 20px;
+
+}
+
+
+p{
+color: #f0f8ff;
+font-size: 22px;
+margin-bottom: 20px;
+
+}
+
+
+button{
+padding: 10px 13px;
+margin: 5px;
+background: #baa6c0;
+border: 1px;
+cursor: pointer;
+font-size: 20px;
+color: #301c22;
+transition: 0.5s; 
+}
+
+/*Hover es un estado de los elementos que se activa al pasar el cursor sobre estos*/
+button:hover{
+    background: transparent;
+    color: white;
+    padding: 15px 25px;
+}

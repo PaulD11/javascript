@@ -1,0 +1,171 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+.fila{
+    display: flex;
+    width: 1050px;
+    margin: 20px auto;
+    
+}
+.fila .contForm{
+    width: 50%;
+    background: #d2c6d4;
+    color: #000000;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+        
+}
+.fila .contForm h2{
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 30px;
+    
+}
+.fila .contForm p{
+    font-size: 25px;
+    color: #4a4333;
+    margin-bottom: 30px;
+
+    
+}
+.fila button{
+    padding: 6px 18px;
+    color: black;
+    background-color: white;
+    border: 10%;
+    border-color: #d2c6d4;
+    transition: 0.5s;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contForm form .formGroup{
+    padding: 10px 50px;
+    text-align: left;
+    
+}
+form .formGroup label{
+    display: block;
+    font-size: 16px;
+    
+}
+form .formGroup input,
+form .formGroup select,
+form .formGroup textarea{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer; 
+    transition: .5s;
+}
+form button{
+    background: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 12px 40px;
+    margin-top: 30px;
+}
+form button:hover{
+    padding: 12px 60px;
+}
+.fila .contAvatar{
+    width: 50%;
+    padding: 80px;
+    text-align: center;
+    background: #efefef;
+    border-radius: 10px;
+}
+.contAvatar img{
+    width: 250px;
+}
+.contAvatar h3{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.contAvatar p{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+#contAvatar.Gris{
+    background: #645c5c;
+}
+#contAvatar.Blanco{
+    background: #ffffff;
+    color: #000000;
+}
+#contAvatar.Azul{
+    background: #2c35d6;
+    color: #000000;
+}
+#contAvatar.Rojo{
+    background: #d00c0c;
+    color: #000000;
+}
+#contAvatar.Amarillo{
+    background: #e6db12;
+    color: #000000;
+}
+#contAvatar.Morado{
+    background: #8b00fd;
+    color: #000000;
+}
+body{
+    background: url("../img/Fondo.jpg");
+    background-size: cover;
+}
+/*Secciones*/
+
+.secciones{
+    display: center;
+    width: 1050px;
+    margin: 20px auto;
+    border: 2px solid #d2c6d4 ;
+    border-radius: 10px;
+    padding: center;
+    background: #d2c6d4;
+    border: 1px solid transparent;
+    border-color: #d2c6d4;
+}
+
+.seccion button{
+    padding: 6px 18px;
+    background: white;
+    color: black;
+    border: 1px solid transparent;
+    font-size: 19px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+button:hover{
+    background: transparent;
+    color: black;
+    padding: 10px 20px;
+} 
+.seccion h2{
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
+.secciones .seccion{
+    width: center;
+    background: var(--primary-color);
+    text-align: center;
+    padding: 8px 4px;
+}
+.secciones h2{
+    color: #000000;
+    font-size: 35px;
+    margin-bottom: 5px;
+
+}
+
